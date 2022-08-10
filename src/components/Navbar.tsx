@@ -13,36 +13,64 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 lg:w-[85%] w-[95%] h-14 mx-auto rounded-md mt-3 flex justify-between items-center px-5">
-      <a href="/">
-        <img src={Abraham} alt="" className="w-[2rem] rounded-full" />
+    <nav
+      className={
+        menu
+          ? "bg-gray-800 lg:w-[85%] w-[95%] h-14 mx-auto rounded-md mt-3 flex justify-between items-center px-5"
+          : "bg-gray-800 w-full h-[100vh] mx-auto left-0 right-0 flex justify-between items-center lg:w-[85%] md:w-[95%] md:h-14 md:rounded-md md:mt-3 md:px-5 px-8 md:pt-0 pt-5 md:items-center md:sticky fixed"
+      }
+    >
+      <a href="/" className={menu ? "h-max" : "h-max mb-[37rem] md:mb-0"}>
+        <img src={Abraham} alt="abraham" className="w-[2rem] rounded-full" />
       </a>
-      <div className="flex gap-10">
-        {navItems.map((item) => (
-          <a href={item.url} key={item.id}>
-            <p className="text-gray-300 font-semibold md:block hidden relative hover-effect hover:text-[#a8a8e7]">
-              {item.name}
-            </p>
-          </a>
-        ))}
-      </div>
-      <div className="flex gap-10">
-        {icons.map((icon, idx) => {
-          const Icon = icon.name;
-          return (
-            <a href={icon.url}>
-              <p className="text-gray-300 md:block hidden hover:text-[#a8a8e7]">
-                <Icon />
+      <div
+        className={
+          menu
+            ? "md:flex md:items-center hidden md:justify-between md:w-[70%]"
+            : "flex md:flex-row flex-col items-center justify-center h-max md:justify-between md:w-[70%] md:gap-0 gap-32"
+        }
+      >
+        <div
+          className={
+            menu
+              ? "md:flex gap-10 hidden "
+              : "flex md:flex-row flex-col gap-10 "
+          }
+        >
+          {navItems.map((item) => (
+            <a href={item.url} key={item.id}>
+              <p className="text-gray-300 font-semibold md:block relative w-max hover-effect hover:text-[#a8a8e7]">
+                {item.name}
               </p>
             </a>
-          );
-        })}
+          ))}
+        </div>
+        <div
+          className={
+            menu ? "md:flex gap-10" : "flex gap-14 md:order-last order-first"
+          }
+        >
+          {icons.map((icon, idx) => {
+            const Icon = icon.name;
+            return (
+              <a href={icon.url} key={idx}>
+                <p className="text-gray-300 md:block hover:text-[#a8a8e7]">
+                  <Icon />
+                </p>
+              </a>
+            );
+          })}
+        </div>
       </div>
       <div
-        className="md:hidden block cursor-pointer text-gray-300"
+        className={
+          menu
+            ? "md:hidden h-max cursor-pointer text-gray-300 animate-pulse"
+            : "md:hidden h-max cursor-pointer md:mb-0 mb-[37rem] text-gray-300 animate-pulse"
+        }
         onClick={handleMenu}
       >
-        {menu ? <GiHamburgerMenu size={25} /> : <AiOutlineClose size={25} />}
+        {menu ? <GiHamburgerMenu size={30} /> : <AiOutlineClose size={30} />}
       </div>
     </nav>
   );
