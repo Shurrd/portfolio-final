@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import navItems from "../utils/navItems";
 import Abraham from "../images/abraham.jpg";
 import icons from "../utils/icons";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 
-const Navbar = () => {
-  const [menu, setMenu] = useState(false);
-
-  const handleMenu = () => {
-    setMenu((prev) => !prev);
-  };
-
+const Navbar = ({
+  menu,
+  handleMenu,
+}: {
+  menu: boolean;
+  handleMenu: () => void;
+}) => {
   return (
     <nav
       className={
