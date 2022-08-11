@@ -55,7 +55,7 @@ const Navbar = ({
             return (
               <a href={icon.url} key={idx}>
                 <p className="text-gray-300 md:block hover:text-[#a8a8e7]">
-                  <Icon />
+                  <Icon size={25} />
                 </p>
               </a>
             );

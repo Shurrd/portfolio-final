@@ -10,8 +10,8 @@ const Hero = ({ menu }: { menu: boolean }) => {
         </p>
         <p className="text-4xl font-bold">Adeyemi Abraham</p>
         <p className="text-sm text-gray-500 font-semibold mt-3">
-          A Nigerian based self taught Front-End Web Developer and an aspiring
-          block chain developer who is specialized in building exceptional
+          A Nigerian based self taught Front-End React Developer and an aspiring
+          Mobile App developer who is specialized in building exceptional
           responsive websites for better experience
         </p>
         <a

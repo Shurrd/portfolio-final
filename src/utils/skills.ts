@@ -5,24 +5,44 @@ import {
   SiCss3,
   SiBootstrap,
   SiTailwindcss,
-  SiPython,
   SiGit,
   SiSass,
-  SiFirebase,
+  SiTypescript,
+  SiFlutter,
 } from "react-icons/si";
 
 const skills = [
   {
-    name: "html5",
-    icon: SiHtml5,
+    name: "javascript",
+    icon: SiJavascript,
   },
   {
     name: "react",
     icon: SiReact,
   },
   {
-    name: "javascript",
-    icon: SiJavascript,
+    name: "typescript",
+    icon: SiTypescript,
+  },
+  {
+    name: "tailwind",
+    icon: SiTailwindcss,
+  },
+  {
+    name: "flutter",
+    icon: SiFlutter,
+  },
+  {
+    name: "git",
+    icon: SiGit,
+  },
+  {
+    name: "html5",
+    icon: SiHtml5,
+  },
+  {
+    name: "scss",
+    icon: SiSass,
   },
   {
     name: "css3",
@@ -31,26 +51,6 @@ const skills = [
   {
     name: "bootstrap",
     icon: SiBootstrap,
-  },
-  {
-    name: "tailwind",
-    icon: SiTailwindcss,
-  },
-  {
-    name: "python",
-    icon: SiPython,
-  },
-  {
-    name: "git",
-    icon: SiGit,
-  },
-  {
-    name: "scss",
-    icon: SiSass,
-  },
-  {
-    name: "firebase",
-    icon: SiFirebase,
   },
 ];
 
