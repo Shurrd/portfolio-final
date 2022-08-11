@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import About from "./components/About";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 const App = () => {
-  const [menu, setMenu] = useState<boolean>(false);
+  const [menu, setMenu] = useState(true);
 
   const handleMenu = () => {
     setMenu((prev) => !prev);
@@ -18,6 +19,7 @@ const App = () => {
     <div className="text-gray-300">
       <Navbar {...props} />
       <Hero {...props} />
+      <About />
     </div>
   );
 };
