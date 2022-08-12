@@ -1,4 +1,5 @@
 import React from "react";
+import { ISkills } from "../types/types";
 import skills from "../utils/skills";
 
 const Skills = () => {
@@ -16,16 +17,17 @@ const Skills = () => {
           These are some of the skills i have worked with as a self-taught
           developer and I am also currently learning{" "}
           <span className="font-bold">Flutter</span>. Here are some of the
-          technologies I have been working on recently
+          technologies I have been working on recently.
         </p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 place-items-center md:place-items-start">
         {skills.map((skill) => {
-          const SkillIcon = skill.icon;
+          const { name, icon }: ISkills = skill;
+          const SkillIcon = icon;
           return (
             <div className="w-[4rem] hover:scale-125 duration-700 hover:text-[#a8a8e7]">
               <SkillIcon size={40} />
-              <p className="mt-2 capitalize">{skill.name}</p>
+              <p className="mt-2 capitalize">{name}</p>
             </div>
           );
         })}

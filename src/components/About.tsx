@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="bg-gray-800 flex flex-col md:flex-row md:justify-center justify-start md:h-[100vh] h-[85vh] items-center lg:px-28 md:px-10 px-8 md:py-0 py-12 gap-14"
+      className="bg-gray-800 flex flex-col md:flex-row md:justify-center justify-start md:h-[100vh] h-full items-center lg:px-28 md:px-10 px-8 md:py-0 py-12 gap-14"
     >
       <div className="md:block hidden h-[80%] w-[1150px] xl:w-[650px] lg:w-[900px] ">
         <img

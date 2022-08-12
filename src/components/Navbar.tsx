@@ -4,14 +4,9 @@ import Abraham from "../images/abraham.jpg";
 import icons from "../utils/icons";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import { INav, IProps } from "../types/types";
 
-const Navbar = ({
-  menu,
-  handleMenu,
-}: {
-  menu: boolean;
-  handleMenu: () => void;
-}) => {
+const Navbar = ({ menu, handleMenu }: IProps) => {
   return (
     <nav
       className={
@@ -37,13 +32,16 @@ const Navbar = ({
               : "flex md:flex-row flex-col gap-10 "
           }
         >
-          {navItems.map((item) => (
-            <a href={item.url} key={item.id}>
-              <p className="text-gray-300 font-semibold md:block relative w-max hover-effect hover:text-[#a8a8e7]">
-                {item.name}
-              </p>
-            </a>
-          ))}
+          {navItems.map((item) => {
+            const { id, name, url }: INav = item;
+            return (
+              <a href={url} key={id}>
+                <p className="text-gray-300 font-semibold md:block relative w-max hover-effect hover:text-[#a8a8e7]">
+                  {name}
+                </p>
+              </a>
+            );
+          })}
         </div>
         <div
           className={

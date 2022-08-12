@@ -1,7 +1,8 @@
 import React from "react";
 import Computer from "../images/computer.png";
+import { IProps } from "../types/types";
 
-const Hero = ({ menu }: { menu: boolean }) => {
+const Hero = ({ menu }: IProps) => {
   return (
     <div className="flex px-7 xl:px-28 lg:px-24 h-[100vh] items-center">
       <div className="flex-1 gap-1 flex flex-col mt-4">
