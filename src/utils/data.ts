@@ -11,7 +11,7 @@ const projects = [
     url: "https://tiktok-clone-sigma-pied.vercel.app/",
     image: Tiktik,
     description:
-      "Bored? Want new Videos? This is a Tiktok clone that has almost all the functionalities of Tiktok. You can Sign In using Google Authentication, you can upload videos, comment on videos,view posts based on your favourite topics, view your profile and also search other your friends or other people's profile. Your best modern Tiktok Clone!",
+      "This is a Tiktok clone! You can Sign In using Google Authentication, you can upload videos, comment on videos,view posts based on your favourite topics, view your profile and also search other your friends or other people's profile.",
     tools: [
       { label: "Next JS and TypeScript" },
       { label: "Tailwind CSS" },

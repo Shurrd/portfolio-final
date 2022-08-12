@@ -53,7 +53,7 @@ const Navbar = ({ menu, handleMenu }: IProps) => {
             return (
               <a href={icon.url} key={idx}>
                 <p className="text-gray-300 md:block hover:text-[#a8a8e7]">
-                  <Icon size={25} />
+                  <Icon size={18} />
                 </p>
               </a>
             );

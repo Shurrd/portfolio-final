@@ -23,7 +23,7 @@ const App = () => {
       <Hero {...props} />
       <About />
       <Skills />
-      <Projects />
+      <Projects {...props} />
     </div>
   );
 };

@@ -9,6 +9,7 @@ import {
   SiSass,
   SiTypescript,
   SiFlutter,
+  SiNextdotjs,
 } from "react-icons/si";
 
 const skills = [
@@ -29,8 +30,8 @@ const skills = [
     icon: SiTailwindcss,
   },
   {
-    name: "flutter",
-    icon: SiFlutter,
+    name: "nextJS",
+    icon: SiNextdotjs,
   },
   {
     name: "git",
@@ -39,6 +40,10 @@ const skills = [
   {
     name: "html5",
     icon: SiHtml5,
+  },
+  {
+    name: "flutter",
+    icon: SiFlutter,
   },
   {
     name: "scss",
