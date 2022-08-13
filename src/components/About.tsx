@@ -1,5 +1,5 @@
 import React from "react";
-import Computer from "../images/computer.png";
+import Abraham from "../images/abraham.jpg";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
     >
       <div className="md:block hidden h-[80%] w-[1150px] xl:w-[650px] lg:w-[900px] ">
         <img
-          src={Computer}
+          src={Abraham}
           alt="abraham"
           className="w-full h-full md:block rounded-sm"
         />

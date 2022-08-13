@@ -11,7 +11,7 @@ const projects = [
     url: "https://tiktok-clone-sigma-pied.vercel.app/",
     image: Tiktik,
     description:
-      "This is a Tiktok clone! You can Sign In using Google Authentication, you can upload videos, comment on videos,view posts based on your favourite topics, view your profile and also search other your friends or other people's profile.",
+      "This is a Tiktok clone! You can Sign In using Google Authentication, you can upload videos, comment on videos,view posts based on your favourite topics, view your profile and also search your other friends or other people's profile.",
     tools: [
       { label: "Next JS and TypeScript" },
       { label: "Tailwind CSS" },
@@ -34,7 +34,7 @@ const projects = [
       { label: "React Router DOM" },
       { label: "Rest-Contries API" },
       { label: "Tailwind CSS" },
-      { label: "Context API" },
+      { label: "Context API(useContext)" },
     ],
   },
   {
@@ -49,6 +49,7 @@ const projects = [
       { label: "React JS" },
       { label: "Leaflet JS" },
       { label: "Geo Ipify API" },
+      { label: "Tailwind CSS" },
       { label: "Context API(useContext)" },
     ],
   },

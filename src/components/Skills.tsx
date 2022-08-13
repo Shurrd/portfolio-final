@@ -14,10 +14,9 @@ const Skills = () => {
           The Technologies I work with
         </p>
         <p className="text-gray-500 text-sm lg:pr-36 pr-0">
-          These are some of the skills I have worked with as a self-taught
-          developer and I am also currently learning{" "}
-          <span className="font-bold">Flutter</span>. Here are some of the
-          technologies I have been working on recently.
+          These are some of the skills I have worked with as developer and I am
+          also currently learning <span className="font-bold">Flutter</span>.
+          Here are some of the technologies I have been working on recently.
         </p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 place-items-start">

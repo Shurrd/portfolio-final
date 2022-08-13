@@ -10,9 +10,9 @@ const Hero = () => {
         </p>
         <p className="text-4xl font-bold">Adeyemi Abraham</p>
         <p className="text-sm text-gray-500 font-semibold mt-3">
-          A Nigerian based self taught Front-End React Developer and an aspiring
-          Mobile App developer who is specialized in building exceptional
-          responsive websites for better experience.
+          A Nigerian based Front-End React Developer and an aspiring Mobile App
+          developer who is specialized in building exceptional responsive
+          websites for better experience.
         </p>
         <a
           href="mailto: engraaadeyemi@gmail.com"
