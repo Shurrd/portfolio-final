@@ -1,5 +1,5 @@
 import React from "react";
-import Abraham from "../images/abraham.png";
+import Abraham from "../images/abraham.jpg";
 
 const About = () => {
   return (
