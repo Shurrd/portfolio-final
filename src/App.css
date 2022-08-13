@@ -10,6 +10,12 @@
 
 :root {
   --primary-color: #a8a8e7;
+  --text-clr: white;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: var(--text-clr);
 }
 
 html {

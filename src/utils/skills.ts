@@ -46,7 +46,7 @@ const skills = [
     icon: SiFlutter,
   },
   {
-    name: "scss",
+    name: "sass",
     icon: SiSass,
   },
   {

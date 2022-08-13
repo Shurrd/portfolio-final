@@ -1,8 +1,7 @@
 import React from "react";
 import Computer from "../images/computer.png";
-import { IProps } from "../types/types";
 
-const Hero = ({ menu }: IProps) => {
+const Hero = () => {
   return (
     <div className="flex px-7 xl:px-28 lg:px-24 h-[100vh] items-center">
       <div className="flex-1 gap-1 flex flex-col mt-4">
@@ -17,7 +16,7 @@ const Hero = ({ menu }: IProps) => {
         </p>
         <a
           href="mailto: engraaadeyemi@gmail.com"
-          className={menu ? "w-max hire-btn btn" : "hidden"}
+          className="w-max hire-btn btn"
         >
           Hire Me
         </a>

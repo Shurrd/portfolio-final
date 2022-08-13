@@ -12,7 +12,7 @@ const Navbar = ({ menu, handleMenu }: IProps) => {
       className={
         menu
           ? "bg-gray-800 lg:w-[85%] w-[95%] h-14 mx-auto rounded-md mt-3 flex justify-between items-center px-5"
-          : "bg-gray-800 w-full h-[100vh] mx-auto left-0 right-0 flex justify-between items-center lg:w-[85%] md:w-[95%] md:h-14 md:rounded-md md:mt-3 md:px-5 px-8 md:pt-0 pt-5 md:items-center md:sticky fixed"
+          : "bg-gray-800 w-full h-[100vh] mx-auto left-0 right-0 flex justify-between items-center lg:w-[85%] md:w-[95%] md:h-14 md:rounded-md md:mt-3 md:px-5 px-8 md:pt-0 pt-5 md:items-center md:sticky fixed z-50"
       }
     >
       <a href="/" className={menu ? "h-max" : "h-max mb-[37rem] md:mb-0"}>
