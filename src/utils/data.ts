@@ -2,6 +2,7 @@ import Fitness from "../images/fitness.png";
 import IpTracker from "../images/iptracker.png";
 import RestCountries from "../images/restcountries.png";
 import Tiktik from "../images/tiktik.png";
+import GitHub from "../images/github.png";
 
 const projects = [
   {
@@ -60,13 +61,29 @@ const projects = [
     url: "https://myfeetnessgym.netlify.app",
     image: Fitness,
     description:
-      "  Are you feeling unfit, feetness gym is the best website for you to track your fitness life and also get new exercise videos from youtube and you also have the opportunity to see similar exercises relating to your proposed exercise.",
+      "Are you feeling unfit, feetness gym is the best website for you to track your fitness life and also get new exercise videos from youtube and you also have the opportunity to see similar exercises relating to your proposed exercise.",
     tools: [
       { label: "React JS" },
       { label: "Material UI" },
       { label: "ExerciseDB API" },
       { label: "YoutubeDB API" },
       { label: "React Router DOM" },
+    ],
+  },
+  {
+    id: 5,
+    name: "GITHUB PROFILE",
+    github: "https://github.com/Shurrd/github-profile",
+    url: "https://new-githubprofile.vercel.app/",
+    image: GitHub,
+    description:
+      "Get a better look at your Github profile with includes a visualization of your top languages, mosted starred repositories and also your most starred languages. You an also sort your repositories according to the size, forks and stars",
+    tools: [
+      { label: "NextJS and TypeScript" },
+      { label: "Tailwind CSS" },
+      { label: "Github Polyglot" },
+      { label: "Chart JS" },
+      { label: "React Flip Move" },
     ],
   },
 ];
