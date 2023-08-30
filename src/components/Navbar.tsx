@@ -1,6 +1,6 @@
 import React from "react";
 import navItems from "../utils/navItems";
-import Abraham from "../images/abraham.jpg";
+import Bitmoji from "../images/bitmoji.png";
 import icons from "../utils/icons";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -16,7 +16,7 @@ const Navbar = ({ menu, handleMenu }: IProps) => {
       }
     >
       <a href="/" className={menu ? "h-max" : "h-max mb-[37rem] md:mb-0"}>
-        <img src={Abraham} alt="abraham" className="w-[2rem] rounded-full" />
+        <img src={Bitmoji} alt="abraham" className="w-[3.5rem] rounded-full" />
       </a>
       <div
         className={
