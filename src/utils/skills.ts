@@ -10,52 +10,62 @@ import {
   SiTypescript,
   SiFlutter,
   SiNextdotjs,
-} from "react-icons/si";
+  SiWordpress,
+  SiWoo,
+} from 'react-icons/si';
 
 const skills = [
   {
-    name: "javascript",
+    name: 'javascript',
     icon: SiJavascript,
   },
   {
-    name: "react",
+    name: 'react',
     icon: SiReact,
   },
   {
-    name: "typescript",
+    name: 'typescript',
     icon: SiTypescript,
   },
   {
-    name: "tailwind",
+    name: 'tailwind',
     icon: SiTailwindcss,
   },
   {
-    name: "nextJS",
+    name: 'nextJS',
     icon: SiNextdotjs,
   },
   {
-    name: "git",
+    name: 'git',
     icon: SiGit,
   },
   {
-    name: "html5",
+    name: 'html5',
     icon: SiHtml5,
   },
   {
-    name: "flutter",
+    name: 'flutter',
     icon: SiFlutter,
   },
   {
-    name: "sass",
+    name: 'sass',
     icon: SiSass,
   },
   {
-    name: "css3",
+    name: 'css3',
     icon: SiCss3,
   },
   {
-    name: "bootstrap",
+    name: 'bootstrap',
     icon: SiBootstrap,
+  },
+  {
+    name: 'wordpress',
+    icon: SiWordpress,
+  },
+  {
+    name: 'woocommerce',
+    icon: SiWoo,
   },
 ];
 
